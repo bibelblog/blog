@@ -5,9 +5,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
 - name: categories
   type: select
   default: []
@@ -20,3 +17,6 @@ fields:
       file: 
       path: 
   label: Kategorie
+- type: datetime
+  name: date
+  label: date
